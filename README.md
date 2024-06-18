@@ -21,3 +21,32 @@ following sources: https://api.github.com/users/freeCodeCamp/repos
 6. Make each repository in the list clickable.
 7. When you click a repository, display the most recent commit date, author, and message.
 8. Include a way to return to the main list of repositories after you click on a repository.
+
+Run
+-----
+### Backend
+`npm install` 
+
+`npx ts-node src.index.js`
+
+### Frontend
+`npm install`
+
+`npm start`
+
+Demo
+-----
+### Backend
+![](./demo/backend.png)
+
+### Frontend
+#### List repos:
+![](./demo/list-repos.png)
+#### Filter repo by language:
+![](./demo/filter-repo.png)
+#### Hover & Click repo:
+![](./demo/click-repo.png)
+#### View detail repo:
+![](./demo/detail%20repo.png)
+
+
